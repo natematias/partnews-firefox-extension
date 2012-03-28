@@ -1,8 +1,9 @@
 // Import the APIs we need.
 var contextMenu = require("context-menu");
 var panel = require("panel");
- 
+
 exports.main = function(options, callbacks) {
+  console.log("extension class loading");
   console.log(options.loadReason);
  
   // Create a new context menu item.
